@@ -1,0 +1,5 @@
+print("Computer: Knock, knock...")
+input("You: ")
+print("Computer: Ash!")
+input("You: ")
+print("Computer: Bless you! Didn't mean to make you sneeze!")
