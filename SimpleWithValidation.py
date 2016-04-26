@@ -1,3 +1,6 @@
+setup = "dr"
+punchline = "you just said it!"
+
 print("Computer: Knock, knock...")
 
 while True:
@@ -6,12 +9,12 @@ while True:
         break;
     print("Computer: Huh? Do you even know how these jokes work?")
     
-print("Computer: Ash!")
+print("Computer:", setup)
 
 while True:
     response = input("You: ")
-    if response == "Ash who?":
+    if response == setup+" who?":
         break;
     print("Computer: You really don't get these jokes, do you?")
 
-print("Computer: Bless you! Didn't mean to make you sneeze!")
+print("Computer:", punchline)
